@@ -8,6 +8,7 @@ Ex. dohs
     seek
 
 Algorithm (with some simplications): logic implemented in Grid.Generate()
+
 	- Filter the list of words into two List<T> objects whose elements are all of length m, n respectively
 	- Store each word underlyingly as an int[] representing lowercase alphabetic characters, where: a->0, b-> 1,..., z->25
 	
