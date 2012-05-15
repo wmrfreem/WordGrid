@@ -3,9 +3,9 @@ WordGrid
 
 C# Project/Library for generating and displaying all m-by-n word grids given a file containing a list of words.
 Ex. dohs
-	oboe
-	gone
-	seek
+    oboe
+    gone
+    seek
 
 Algorithm (with some simplications): logic implemented in Grid.Generate()
 	- Filter the list of words into two List<T> objects whose elements are all of length m, n respectively
