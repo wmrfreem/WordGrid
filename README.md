@@ -2,6 +2,10 @@ WordGrid
 ========
 
 C# Project/Library for generating and displaying all m-by-n word grids given a file containing a list of words.
+Ex. dohs
+	oboe
+	gone
+	seek
 
 Algorithm (with some simplications): logic implemented in Grid.Generate()
 	- Filter the list of words into two List<T> objects whose elements are all of length m, n respectively
@@ -20,6 +24,7 @@ Usage:
 	- wordgrid.exe m n
 	- Ex. wordgrid.exe 3 3
 	- The file dict.txt is expected to be in the same folder as wordgrid.exe
+		- Feel free to supply your own word list and compare the number of grids
 	- Sample output for 3x3, 3x4, 4x4 grids are provided in sampleoutput/.
 		
 References:
