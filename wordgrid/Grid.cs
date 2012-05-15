@@ -23,6 +23,9 @@ namespace wordgrid
         private int sWordCount;
         private int[] pIdx;
         private int[] sIdx;
+        /// <summary>
+        /// true => primary dimension is a row, false otherwise. Used when loading the grid.
+        /// </summary>
         private bool row;
 
         public Grid(int m, int n, List<string> wordList) 
